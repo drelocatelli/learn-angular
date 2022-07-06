@@ -1,0 +1,6 @@
+<div *ngIf="canShow; else notShow">
+  Estamos mostrando isso porque foi permitido
+</div>
+<ng-template #notShow>
+  <div>Não está mostrando</div>
+</ng-template>

@@ -9,10 +9,6 @@ export class FirstComponentComponent implements OnInit {
   name = 'Andressa';
   hobbies = ['Correr', 'Jogar', 'Aprender'];
 
-  arrayToString(array: string[]): string {
-    return array.join(', ');
-  }
-
   constructor() {}
 
   ngOnInit(): void {}
