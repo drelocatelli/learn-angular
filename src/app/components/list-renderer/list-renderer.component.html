@@ -1,0 +1,5 @@
+<h1>List renderer</h1>
+<li *ngFor="let animal of animals">
+    Nome: {{ animal.name }} | Som: {{ animal.sound }}
+    <button (click)="removeAnimal(animal)">Excluir</button>
+</li>
