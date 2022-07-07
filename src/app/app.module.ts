@@ -12,6 +12,9 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { ListRendererComponent } from './components/list-renderer/list-renderer.component';
+import { ChildSlotComponent } from './components/child-slot/child-slot.component';
+import { AppRoutingModule } from './app-routing.module';
+import { LearnComponent } from './components/learn/learn.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +28,10 @@ import { ListRendererComponent } from './components/list-renderer/list-renderer.
     ForLoopComponent,
     TwoWayBindingComponent,
     ListRendererComponent,
+    ChildSlotComponent,
+    LearnComponent,
   ],
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })

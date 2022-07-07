@@ -1,10 +1,7 @@
-<h1>Hello world angular</h1>
+<nav>
+    <a routerLink="/">Home</a>
+    &nbsp;
+    <a routerLink="/learn">Just Learning</a>
+</nav>
 
-<app-first-component></app-first-component>
-<app-parent-data [userName]="userName"></app-parent-data>
-<app-directives></app-directives>
-<app-if-render></app-if-render>
-<app-emitter></app-emitter>
-<app-for-loop></app-for-loop>
-<app-two-way-binding></app-two-way-binding>
-<app-list-renderer></app-list-renderer>
+<router-outlet></router-outlet>
